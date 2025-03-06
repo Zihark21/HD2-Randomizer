@@ -1,0 +1,3 @@
+(M-102 Fast Recon Vehicle, True)
+(EXO-45 Patriot Exosuit, True)
+(EXO-49 Emancipator Exosuit, True)

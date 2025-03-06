@@ -1,0 +1,7 @@
+(Eagle Strafing Run, True)
+(Eagle Airstrike, True)
+(Eagle Cluster Bomb, True)
+(Eagle Napalm Strike, True)
+(Eagle Smoke Strike, True)
+(Eagle 100mm Rocket Pods, True)
+(Eagle 500kg Bomb, True)
