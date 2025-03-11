@@ -11,12 +11,8 @@ class App(customtkinter.CTk):
 
         customtkinter.set_appearance_mode('dark')
 
-        ico_path = (
-            os.path.join(sys._MEIPASS, 'assets', 'HD2.ico')
-            if getattr(sys, 'frozen', False)
-            else os.path.join('assets', 'HD2.ico')
-        )
-
+        ico_path = os.path.join('assets', 'HD2.ico')
+            
         self.iconbitmap(ico_path)
         self.title(f'HD2 Randomizer - v{version}')
         self.geometry(win_size)
