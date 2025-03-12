@@ -37,6 +37,7 @@ class Editor_Tab(customtkinter.CTkFrame):
             pass
 
         self.widgets = []
+        self.edit_frame._parent_canvas.yview_moveto(0)
 
         for opt, unlock in opts:
             if unlock == 'Header':

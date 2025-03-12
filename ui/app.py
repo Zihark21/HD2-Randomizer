@@ -10,6 +10,7 @@ class App(customtkinter.CTk):
         super().__init__()
 
         customtkinter.set_appearance_mode('dark')
+        customtkinter.set_default_color_theme(os.path.join('assets', 'HD2_Theme.json'))
 
         ico_path = os.path.join('assets', 'HD2.ico')
             
