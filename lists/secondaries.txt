@@ -17,3 +17,4 @@
 (LAS-7 Dagger, True)
 (GP-31 Ultimatum, True)
 (PLAS-15 Loyalist, True)
+(LAS-59 Talon, True)

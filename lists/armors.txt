@@ -18,6 +18,8 @@
 (SR-Street Scout, True)
 (AC-2 Obedient, True)
 (IE-57 Hell-Bent, True)
+(GS-11 Democracy's Deputy, True)
+(GS-17 Frontier Marshall, True)
 
 (Medium, Header)
 (B-01 Tactical, True)
@@ -53,6 +55,7 @@
 (IE-3 Martyr, True)
 (IE-12 Righteous, True)
 (B-22 Model Citizen, True)
+(GS-66 Lawmaker, True)
 
 (Heavy, Header)
 (FS-05 Marksman, True)

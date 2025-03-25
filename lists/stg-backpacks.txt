@@ -1,4 +1,5 @@
 (LIFT-850 Jump Pack, True)
+(LIFT-860 Hover Pack, True)
 (B-1 Supply Pack, True)
 (AX/LAS-5 Rover, True)
 (SH-20 Ballistic Shield Backpack, True)

@@ -2,6 +2,7 @@
 (G-6 Frag, True)
 (G-12 High Explosive, True)
 (G-10 Incendiary, True)
+(TED-63 Dynamite, True)
 
 (Special, Header)
 (G-16 Impact, True)
