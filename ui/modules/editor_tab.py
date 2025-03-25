@@ -16,6 +16,9 @@ class Editor_Tab(customtkinter.CTkFrame):
         self.edit_frame = customtkinter.CTkScrollableFrame(self)
         self.edit_frame.pack(fill='both', expand=True)
 
+        tog_btn = customtkinter.CTkButton(self, text='Invert Selection', command=self.toggle_data)
+        tog_btn.pack(fill='x', pady=5)
+
         save_btn = customtkinter.CTkButton(self, text='Save Current Selection', command=self.save_list)
         save_btn.pack(fill='x')
 
@@ -50,6 +53,11 @@ class Editor_Tab(customtkinter.CTkFrame):
                 if unlock == 'True':
                     checkbox.select()
                 self.widgets.append(checkbox)
+
+    def toggle_data(self):
+        for widget in self.widgets:
+            if isinstance(widget, customtkinter.CTkCheckBox):
+                widget.toggle()
 
     def set_index(self, opt):
 

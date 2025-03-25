@@ -16,9 +16,27 @@ class App(customtkinter.CTk):
             
         self.iconbitmap(ico_path)
         self.title(f'HD2 Randomizer - v{version}')
-        self.geometry(win_size)
-        self.resizable(False, False)
+        self.center_window()
 
         self.tabs = Tabs(self, tab_list)
         Loadout_Tab(self.tabs.tab('Loadout'))
+        # Options tab to be added here
         Editor_Tab(self.tabs.tab('Editor'))
+
+    def center_window(self):
+
+        self.update()
+        self.update_idletasks()
+        self.resizable(False, False)
+
+        scale = customtkinter.ScalingTracker.get_window_dpi_scaling(self)
+
+        sw = int(self.winfo_screenwidth() * scale // 2)
+        sh = int(self.winfo_screenheight() * scale // 2)
+
+        geo = self._parse_geometry_string(win_size)
+
+        pos_x = int(sw - (geo[0] // 2))
+        pos_y = int(sh - (geo[1] // 2))
+
+        self.geometry(f'{win_size}+{pos_x}+{pos_y}')
