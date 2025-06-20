@@ -16,3 +16,5 @@
 (ARC-3 Arc Thrower, True)
 (LAS-99 Quasar Cannon, True)
 (TX-41 Sterilizer, True)
+(CQC-1 One True Flag, True)
+(GL-52 De-Escalator, True)
